@@ -1,0 +1,19 @@
+# Ambiente virtual local
+.venv/
+venv/
+
+# Artefatos Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Conteúdo baixado pelo crawler (espelho do site) — não versionar
+site/
+amatra-site/site/
+
+# Logs de execução do crawler
+*.log
+
+# Temporários do sandbox de desenvolvimento
+.devbox_tmp/
